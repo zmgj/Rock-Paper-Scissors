@@ -11,23 +11,7 @@
     <h1>Rock Paper Scissors</h1>
   </div>
 </body>
-<script>
-  const selection = ["rock", "paper", "scissors"];
+<script src="main.js"></script>
 
-  function getComputerChoice() {
-    return selection[Math.floor(Math.random() * selection.length)];
-  } 
-
-  function playRound() {
-    const playerSelection = playerChoice();
-    const computerSelection = getComputerChoice();
-  } console.log(playRound(playerSelection, computerSelection));
-
-  function playerChoice() {
-    let input = prompt("Choose rock, paper, or scissors", "");
-    input = input.toLowerCase();
-  }
-
-</script>
 
 </html>
